@@ -1,6 +1,11 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 1.6rem;
 }
 
 .cabecalho{
@@ -89,13 +94,13 @@ body{
 }
 
 .ladrilho .pequeno{
-    background: url(../images/2.jpg) center center no-repeat;
+    background: url(../images/3.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
 
 .ladrilho .pequeno.grao{
-    background: url(../images/3.jpg) center center no-repeat;
+    background: url(../images/2.jpg) center center no-repeat;
     height: 300px;
     width: 25%;
 }
@@ -124,7 +129,7 @@ body{
     font-weight: 600;
 }
 
-.contato .texto-contato{
+.contato .texto{
     position: absolute;
     top: 30%;
     left: 50%;
